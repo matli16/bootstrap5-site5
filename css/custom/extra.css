@@ -1,7 +1,29 @@
-.header{
-    background-color: black;
-    height: 50px;
+
+a:link{
+    margin-top: 0;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
 }
-.headertext{
-    margin-top: 10px;
+a:visited{
+color:white;
 }
+
+.top-nav {
+    background-color: #d64022;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav span,
+.top-nav i {
+    vertical-align: middle;
+}
+
