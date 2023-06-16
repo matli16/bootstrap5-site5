@@ -6,9 +6,12 @@ a:link{
     text-decoration: none;
 }
 a:visited{
-color:white;
-}
-
+    color:white;
+    }
+ .nav-item .nav-link  a:visited{
+        color:red;
+        }
+    
 .top-nav {
     background-color: #d64022;
     color: #fff;
@@ -52,12 +55,35 @@ color: #d64022;
 color: white;
 background-color: #092032;
 }
-
-
-@media (min-width: 992px)
+.dropdown-menu{
+    color: red;
+    background-color: white;
+}
+.dropdown-item{
+    color: #d64022!important;
+}
+.dropdown-item:hover{
+    color: white!important;
+    background-color: #d64022;
+    text-align: center;
+}
+@media (min-width: 992px){
 .navbar-expand-lg .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
     align-items: center;
-    background-color: #d64022;
 }
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: white;
+}
+}
+.c-item {
+    height: 620px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
